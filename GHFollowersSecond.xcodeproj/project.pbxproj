@@ -70,22 +70,54 @@
 		D048FC66250170930005D3B3 /* GHFollowersSecond */ = {
 			isa = PBXGroup;
 			children = (
+				D0824C912564820B00EAB6A3 /* Extensions */,
+				D0824C90256481DD00EAB6A3 /* Custom Views */,
+				D0824C8F256481A700EAB6A3 /* Screens */,
+				D0824C922564826E00EAB6A3 /* Support */,
+			);
+			path = GHFollowersSecond;
+			sourceTree = "<group>";
+		};
+		D0824C8F256481A700EAB6A3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D048FC7B2501764A0005D3B3 /* SearchVC.swift */,
+				D048FC7D250176910005D3B3 /* FavoriteListVC.swift */,
+				D048FC83250583990005D3B3 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D0824C90256481DD00EAB6A3 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D08D3575251A610A004364D7 /* GFAlertVC.swift */,
+				D048FC7F250575810005D3B3 /* GFButton.swift */,
+				D048FC81250578F80005D3B3 /* GFTextField.swift */,
+				D08D356D251A5EAF004364D7 /* GFTitleLabel.swift */,
+				D08D3571251A605F004364D7 /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D0824C912564820B00EAB6A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D06920E62563116300EC1550 /* UIVIewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0824C922564826E00EAB6A3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				D048FC67250170930005D3B3 /* AppDelegate.swift */,
 				D048FC69250170930005D3B3 /* SceneDelegate.swift */,
 				D048FC70250170960005D3B3 /* Assets.xcassets */,
 				D048FC72250170960005D3B3 /* LaunchScreen.storyboard */,
 				D048FC75250170960005D3B3 /* Info.plist */,
-				D048FC7B2501764A0005D3B3 /* SearchVC.swift */,
-				D048FC7D250176910005D3B3 /* FavoriteListVC.swift */,
-				D048FC7F250575810005D3B3 /* GFButton.swift */,
-				D048FC81250578F80005D3B3 /* GFTextField.swift */,
-				D048FC83250583990005D3B3 /* FollowerListVC.swift */,
-				D08D356D251A5EAF004364D7 /* GFTitleLabel.swift */,
-				D08D3571251A605F004364D7 /* GFBodyLabel.swift */,
-				D08D3575251A610A004364D7 /* GFAlertVC.swift */,
-				D06920E62563116300EC1550 /* UIVIewController+Ext.swift */,
 			);
-			path = GHFollowersSecond;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +338,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXHHZQB8GN;
-				INFOPLIST_FILE = GHFollowersSecond/Info.plist;
+				INFOPLIST_FILE = GHFollowersSecond/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +357,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXHHZQB8GN;
-				INFOPLIST_FILE = GHFollowersSecond/Info.plist;
+				INFOPLIST_FILE = GHFollowersSecond/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
